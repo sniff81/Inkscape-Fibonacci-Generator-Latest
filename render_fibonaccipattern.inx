@@ -7,7 +7,10 @@
     <param name="lastRadius" type="int" min="1" max="500" gui-text="Last Radius:">5</param>
     <param name="numNodes" type="int" min="1" max="2000" gui-text="Number of Nodes:">400</param>
     <param name="spreadFactor" type="int" min="1" max="100" gui-text="Spread Factor:">20</param>
+    <param name="objectDistance" type="int" min="1" max="200" gui-text="Object Distance:">20</param>
     <param name="useSelectedObject" type="bool" gui-text="Use selected object as spiral element:">true</param>
+    <param name="rotateObject" type="bool" gui-text="Rotate object along spiral angle:">false</param>
+    <param name="reverseOrder" type="bool" gui-text="Reverse stacking order (inner objects on top):">false</param>
 
     <effect>
         <object-type>all</object-type>
