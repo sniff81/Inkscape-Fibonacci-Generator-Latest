@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <name>Beauty Full Day Fibonacci Pattern</name>
+    <id>com.beautyfullday.inkscape.fibonaccipattern</id>
+
+    <param name="firstRadius" type="int" min="1" max="500" gui-text="First Radius:">2</param>
+    <param name="lastRadius" type="int" min="1" max="500" gui-text="Last Radius:">5</param>
+    <param name="numNodes" type="int" min="1" max="2000" gui-text="Number of Nodes:">400</param>
+    <param name="spreadFactor" type="int" min="1" max="100" gui-text="Spread Factor:">20</param>
+    <param name="useSelectedObject" type="bool" gui-text="Use selected object as spiral element:">true</param>
+
+    <effect>
+        <object-type>all</object-type>
+        <effects-menu>
+            <submenu name="Render"/>
+        </effects-menu>
+    </effect>
+
+    <script>
+        <command reldir="extensions" interpreter="python">render_fibonaccipattern.py</command>
+    </script>
+</inkscape-extension>
