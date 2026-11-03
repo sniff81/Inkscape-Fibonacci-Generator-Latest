@@ -5,6 +5,9 @@ Place both files in "extensions" folder (py,inx)
 <br><br>
 Extensions -> Render -> "Beauty Full Day Fibonacci Pattern"
 <br><br>
+v4.0<br>
+Added Option to increase/decrease object Size X/Y by percentage as objects move away from the center. use 100% to keep same size.
+<br><br>
 v3.0:<br>
 Added Option for Alternate Phyllotaxy (Lotus Style)
 <br><br>
